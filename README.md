@@ -2,4 +2,4 @@
 
 - Version visual demo - no-code
 
-Visitar -> [https://manuelguarniz.github.io/monitoreo.conciencia/](Conciencia)
+Visitar -> [Conciencia](https://manuelguarniz.github.io/monitoreo.conciencia/)
