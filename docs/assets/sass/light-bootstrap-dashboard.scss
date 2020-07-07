@@ -17,6 +17,7 @@
 
 // variables and mixins
 @import "lbd/variables";
+@import "oxipul/variables";
 @import "lbd/mixins";
 
 
@@ -69,3 +70,9 @@
 // Responsive adjustments
 @import "lbd/responsive";
 @import "lbd/tabs-navs-pagination";
+
+// Custom CSS Oxipul
+@import "oxipul/navbar";
+@import "oxipul/sidebar";
+@import "oxipul/main-panel";
+@import "oxipul/buttons";

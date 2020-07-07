@@ -1,0 +1,26 @@
+.main-panel {
+  background: $oxi-color-background;
+
+  > .footer {
+    border-top: 1px solid $oxi-color-footer;
+  }
+}
+.footer-oxi {
+  background-color: $oxi-color-footer;
+  color: $white-color;
+  nav > ul{
+    a:not(.btn){
+        color: $white-color;
+    }
+
+  }
+  .social-area > a:not(.btn){
+     color: $white-color;
+  }
+  .copyright{
+      color: $white-color;
+  }
+  .title{
+      color: $white-color;
+  }
+}

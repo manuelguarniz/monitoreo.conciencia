@@ -1,0 +1,47 @@
+.sidebar {
+  .nav {
+    li {
+      > a {
+        border-radius: $border-radius-base;
+        color: #ffffff;
+      }
+
+      &:hover > a {
+        background: rgba($oxi-color-hover, 0.9);
+        color: $oxi-color-navbar;
+      }
+
+      &.active > a {
+        color: $oxi-color-navbar;
+        background: rgba($oxi-color-hover, 1);
+      }
+      &:hover > a p,
+      &.active > a p {
+        color: $oxi-color-navbar;
+      }
+    }
+  }
+  .sidebar-wrapper {
+    box-shadow: inset -1px 0px 0px 0px $oxi-color-navbar;
+  }
+  .logo {
+    box-shadow: inset -1px 0px 0px 0px $oxi-color-navbar;
+  }
+  .logo-name > img {
+    width: 10.5em;
+    padding-left: 2.2em;
+    margin-left: 1.3em;
+    margin-top: 0.2em;
+  }
+}
+
+.sidebar,
+.bootstrap-navbar {
+  &[data-color="oxipul"]:after {
+    @include line-gradient($oxi-color-navbar, rgba($oxi-color-navbar, 1));
+  }
+  &[data-image]:after,
+  &.has-image:after {
+    opacity: 1;
+  }
+}
