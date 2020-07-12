@@ -36,7 +36,8 @@
 }
 
 .sidebar,
-.bootstrap-navbar {
+.bootstrap-navbar,
+.full-page {
   &[data-color="oxipul"]:after {
     @include line-gradient($oxi-color-navbar, rgba($oxi-color-navbar, 1));
   }
