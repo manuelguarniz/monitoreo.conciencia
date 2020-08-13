@@ -1,1 +1,27 @@
 .btn-oxi { @include btn-styles($oxi-color-navbar, $oxi-color-navbar-states-color); }
+
+.btn {
+  position: relative;
+}
+
+.btn-oxipul {
+  // border-color: #2b274a;
+  border-color: #fff;
+  color: #fff;
+  // background-color: #48455f;
+  background-color: transparent;
+}
+
+.btn-oxipul:hover,
+.btn-oxipul:focus,
+.btn-oxipul:active,
+.btn-oxipul.active,
+.btn-oxipul:active:focus,
+.btn-oxipul:active:hover,
+.btn-oxipul.active:focus,
+.btn-oxipul.active:hover,
+.open > .btn-oxipul.dropdown-toggle {
+  background-color: $oxi-color-hover;
+  border-color: $oxi-color-hover;
+  color: $black-color;
+}

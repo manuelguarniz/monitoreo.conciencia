@@ -1,0 +1,51 @@
+.xAxis {
+  color: #7c2156;
+  .tick line, .tick text {
+    display: none;
+  }
+}
+.yAxis {
+  stroke: #3a3865;
+  .domain {
+    stroke: #3a3865;
+  }
+  .tick > text {
+    stroke: #b5c53c;
+    font: 8px times;
+  }
+  .tick > line {
+    stroke: transparent;
+  }
+}
+
+.smoothLineGreen {
+  fill: none;
+  stroke: #85e72d;
+  stroke-width: 2px;
+}
+.smoothLineCyan {
+  fill: none;
+  stroke: #8ce6f9;
+  stroke-width: 2px;
+}
+
+.smoothline {
+  fill: none;
+  stroke: #ffff6a;
+  stroke-width: 2px;
+}
+.area {
+  // fill: url(#area-gradient);
+  opacity: 0.5;
+}
+.grid {
+  stroke: #DDD;
+  stroke-width: 1px;
+  stroke-dasharray: 3;
+  fill: none;
+}
+.grid-top {
+  stroke: #7c2156;
+  stroke-width: 1px;
+  fill: none;
+}

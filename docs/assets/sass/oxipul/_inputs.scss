@@ -1,0 +1,29 @@
+.mat-form-field-appearance-outline .mat-form-field-outline {
+  color: #3a3866;
+}
+.mat-input-element {
+  // caret-color: #fff;
+  caret-color: #3a3866;
+  color: #fff !important;
+}
+
+.mat-form-field-label,
+.mat-focused .mat-form-field-label,
+.mat-form-field-placeholder {
+  /*change color of label*/
+  color: #fff !important;
+}
+
+.mat-form-field-underline {
+  /*change color of underline*/
+  background-color: #fff !important;
+}
+
+.mat-form-field-ripple {
+  /*change color of underline when focused*/
+  background-color: #fff !important;
+}
+.input-group-addon {
+  background-color: $white-color;
+  border: 1px solid $light-gray;
+}

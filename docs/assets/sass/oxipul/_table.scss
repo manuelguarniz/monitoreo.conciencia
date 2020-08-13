@@ -1,0 +1,77 @@
+.mat-paginator {
+  background: $oxi-color-background
+}
+.mat-paginator,
+.mat-paginator-page-size .mat-select-trigger {
+  color: #fff;
+}
+.mat-select-value {
+  color: #fff;
+}
+.mat-button.mat-primary[disabled],
+.mat-button.mat-accent[disabled],
+.mat-button.mat-warn[disabled],
+.mat-button[disabled][disabled],
+.mat-icon-button.mat-primary[disabled],
+.mat-icon-button.mat-accent[disabled],
+.mat-icon-button.mat-warn[disabled],
+.mat-icon-button[disabled][disabled],
+.mat-stroked-button.mat-primary[disabled],
+.mat-stroked-button.mat-accent[disabled],
+.mat-stroked-button.mat-warn[disabled],
+.mat-stroked-button[disabled][disabled] {
+  color: #fff;
+}
+.mat-table {
+  background: $oxi-color-background
+}
+.mat-cell {
+  margin: .5em 0;
+  background-color: $oxi-color-navbar;
+  a{
+    color: #fff;
+  } 
+}
+.mat-header-cell, .mat-cell, .mat-footer-cell {
+  color: #fff;
+}
+.mat-row:hover, .mat-row:hover .mat-cell  {
+  color: $oxi-color-background;
+  background-color: $oxi-color-hover;
+  .btn-oxipul {
+    border-color: #2b274a;
+    color: #2b274a;
+  }
+
+  .mat-checkbox .mat-checkbox-frame {
+    border-color: $oxi-color-background;
+    border-width: 1px;
+    background-color: $oxi-color-hover;
+  }
+  .mat-checkbox-checkmark-path {
+    stroke: $oxi-color-background !important;
+  }
+  a{
+    color: $oxi-color-background;
+  }
+}
+.footer-nodata-table {
+  background: $oxi-color-background;
+  color: #fff;
+  width: 100%;
+  height: 46px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.border-paginator-table {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.table-responsive {
+  position: relative;
+}
